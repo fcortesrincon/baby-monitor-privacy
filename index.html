@@ -3,20 +3,504 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0; url=privacy_index.html">
-    <title>Baby Monitor Sound - Privacy Policy</title>
+    <title>Privacy Policy - Baby Monitor Sound</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 24px;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 18px;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #555;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        strong {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .highlight {
+            background: #f0f4ff;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .summary {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+
+        .summary h3 {
+            color: #667eea;
+            margin-top: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #f5f5f5;
+        }
+
+        .contact-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e0e0e0;
+            margin: 30px 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+
+            .header {
+                padding: 30px 20px;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .content {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px;
+            }
         }
     </style>
 </head>
 <body>
-    <p>Redirecting to Privacy Policy...</p>
-    <p>If you are not redirected, <a href="privacy_index.html">click here</a>.</p>
+    <div class="container">
+        <div class="header">
+            <h1>Privacy Policy</h1>
+            <p>Baby Monitor Sound</p>
+            <p style="font-size: 14px; margin-top: 10px;">Last Updated: October 25, 2024</p>
+        </div>
+
+        <div class="content">
+            <div class="summary">
+                <h3>Summary</h3>
+                <p><strong>What we collect:</strong> Audio (live only), device info, battery status, FCM tokens, app settings</p>
+                <p><strong>What we DON'T collect:</strong> PII, location, contacts, photos, browsing history</p>
+                <p><strong>Storage:</strong> Local device only (except FCM tokens with Firebase)</p>
+                <p><strong>Sharing:</strong> We do NOT share or sell your data</p>
+                <p><strong>Purpose:</strong> Baby monitoring with real-time audio and cry detection</p>
+                <p style="margin-bottom: 0;"><strong>Your control:</strong> Uninstall app to delete all data</p>
+            </div>
+
+            <h2>1. Introduction</h2>
+            <p>Baby Monitor Sound ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how our mobile application ("App") collects, uses, and safeguards your information.</p>
+            <p><strong>Developer:</strong> Felipe Cortes Rincon<br>
+            <strong>Contact Email:</strong> babymonitorsound@gmail.com<br>
+            <strong>App Package:</strong> com.fcortesrincon.babymonitorsound</p>
+            <p>By using Baby Monitor Sound, you agree to the collection and use of information in accordance with this policy.</p>
+
+            <h2>2. Information We Collect</h2>
+
+            <h3>2.1 Audio Data (Microphone Access)</h3>
+            <ul>
+                <li><strong>What we collect:</strong> Real-time audio from your device's microphone when operating in Emisor (transmitter) mode</li>
+                <li><strong>How we use it:</strong> Audio is transmitted in real-time to connected receptor devices via peer-to-peer WebRTC connection</li>
+                <li><strong>Storage:</strong> We do NOT store, record, or retain any audio data. Audio is only transmitted live and is never saved to any server or cloud storage</li>
+                <li><strong>Third-party access:</strong> Audio data is NOT shared with any third parties</li>
+            </ul>
+
+            <h3>2.2 Device Information</h3>
+            <ul>
+                <li><strong>What we collect:</strong>
+                    <ul>
+                        <li>Battery level and charging status</li>
+                        <li>Device type and model</li>
+                        <li>Network connectivity status</li>
+                    </ul>
+                </li>
+                <li><strong>How we use it:</strong> To display battery status and ensure proper connection between devices</li>
+                <li><strong>Storage:</strong> Stored locally on your device only</li>
+                <li><strong>Third-party access:</strong> NOT shared with third parties</li>
+            </ul>
+
+            <h3>2.3 Network Information</h3>
+            <ul>
+                <li><strong>What we collect:</strong> Local IP addresses for WebRTC peer-to-peer connections</li>
+                <li><strong>How we use it:</strong> To establish direct audio connections between emisor and receptor devices</li>
+                <li><strong>Storage:</strong> Used temporarily during active connections only</li>
+                <li><strong>Third-party access:</strong> NOT shared with third parties (direct peer-to-peer connection)</li>
+            </ul>
+
+            <h3>2.4 Push Notification Tokens</h3>
+            <ul>
+                <li><strong>What we collect:</strong> Firebase Cloud Messaging (FCM) tokens</li>
+                <li><strong>How we use it:</strong> To send push notifications when baby cry is detected and receptor is in background</li>
+                <li><strong>Storage:</strong> Stored by Firebase (Google) according to their privacy policy</li>
+                <li><strong>Third-party access:</strong> Firebase/Google only, for notification delivery</li>
+            </ul>
+
+            <h3>2.5 Camera Access (QR Code Scanning)</h3>
+            <ul>
+                <li><strong>What we collect:</strong> Camera access for QR code scanning (receptor mode only)</li>
+                <li><strong>How we use it:</strong> To scan QR codes for easy connection to emisor device</li>
+                <li><strong>Storage:</strong> No images or camera data is stored. Camera is only used for real-time QR code detection</li>
+                <li><strong>Third-party access:</strong> NOT shared with third parties</li>
+            </ul>
+
+            <h3>2.6 App Settings and Preferences</h3>
+            <ul>
+                <li><strong>What we collect:</strong>
+                    <ul>
+                        <li>Baby name</li>
+                        <li>Cry detection settings (threshold, duration, cooldown)</li>
+                        <li>Connection history (IP addresses, baby names)</li>
+                        <li>Audio output preferences</li>
+                    </ul>
+                </li>
+                <li><strong>How we use it:</strong> To provide personalized experience and quick reconnection</li>
+                <li><strong>Storage:</strong> Stored locally on your device using SharedPreferences</li>
+                <li><strong>Third-party access:</strong> NOT shared with third parties</li>
+            </ul>
+
+            <h2>3. How We Use Your Information</h2>
+            <p>We use the collected information for the following purposes:</p>
+            <ol>
+                <li><strong>Core Functionality:</strong> Enable real-time baby monitoring with audio streaming</li>
+                <li><strong>Cry Detection:</strong> Analyze audio levels to detect baby crying and send alerts</li>
+                <li><strong>Push Notifications:</strong> Notify receptor users when baby is crying</li>
+                <li><strong>Connection Management:</strong> Facilitate easy connection between emisor and receptor devices</li>
+                <li><strong>User Experience:</strong> Remember settings and preferences</li>
+                <li><strong>Battery Monitoring:</strong> Display battery status to prevent unexpected disconnections</li>
+            </ol>
+
+            <h2>4. Data Storage and Retention</h2>
+
+            <h3>4.1 Local Storage Only</h3>
+            <ul>
+                <li>All app settings, preferences, and connection history are stored <strong>locally on your device</strong></li>
+                <li>We do NOT use cloud storage for any user data</li>
+                <li>Audio is NEVER stored anywhere (real-time transmission only)</li>
+            </ul>
+
+            <h3>4.2 Data Retention</h3>
+            <ul>
+                <li><strong>Audio Data:</strong> NOT retained (0 seconds - live streaming only)</li>
+                <li><strong>App Settings:</strong> Retained until you uninstall the app or clear app data</li>
+                <li><strong>Connection History:</strong> Retained until you manually delete or clear app data</li>
+                <li><strong>FCM Tokens:</strong> Retained by Firebase while app is installed</li>
+            </ul>
+
+            <h3>4.3 Data Deletion</h3>
+            <ul>
+                <li><strong>Uninstall the app:</strong> All local data is automatically deleted</li>
+                <li><strong>Clear app data:</strong> Settings → Apps → Baby Monitor Sound → Clear Data</li>
+                <li><strong>Manual deletion:</strong> Use in-app options to delete connection history</li>
+            </ul>
+
+            <h2>5. Third-Party Services</h2>
+            <p>We use the following third-party services:</p>
+
+            <h3>5.1 Firebase Cloud Messaging (Google)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Push notifications for baby cry alerts</li>
+                <li><strong>Data shared:</strong> FCM device tokens, basic app usage</li>
+                <li><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
+                <li><strong>Data location:</strong> Google servers (various locations)</li>
+            </ul>
+
+            <h3>5.2 WebRTC (Peer-to-Peer)</h3>
+            <ul>
+                <li><strong>Purpose:</strong> Real-time audio streaming</li>
+                <li><strong>Data shared:</strong> Audio stream between your devices only (direct connection)</li>
+                <li><strong>Privacy:</strong> No third-party servers involved in audio transmission</li>
+                <li><strong>Data location:</strong> Your local network only</li>
+            </ul>
+
+            <h2>6. Data Sharing and Disclosure</h2>
+
+            <h3>6.1 We Do NOT Share Your Data</h3>
+            <ul>
+                <li>We do NOT sell your personal information</li>
+                <li>We do NOT share your data with third parties for marketing purposes</li>
+                <li>We do NOT use your data for advertising</li>
+                <li>We do NOT track your behavior</li>
+            </ul>
+
+            <h3>6.2 Legal Requirements</h3>
+            <p>We may disclose your information only if required by law, such as:</p>
+            <ul>
+                <li>In response to a valid legal request (court order, subpoena)</li>
+                <li>To protect our rights or safety</li>
+                <li>To comply with applicable laws and regulations</li>
+            </ul>
+
+            <h2>7. Children's Privacy</h2>
+            <p>Baby Monitor Sound is designed for <strong>parents and caregivers</strong> (adults 18+) to monitor babies and young children. The app is NOT directed at children under 13.</p>
+            <ul>
+                <li>We do NOT knowingly collect information from children under 13</li>
+                <li>If you believe a child has provided us with personal information, please contact us</li>
+                <li>The app is used BY adults to monitor children, not FOR children to use</li>
+            </ul>
+            <p><strong>COPPA Compliance:</strong> This app is not subject to COPPA as it is not directed at children.</p>
+
+            <h2>8. Security</h2>
+            <p>We take reasonable measures to protect your information:</p>
+            <ul>
+                <li><strong>Encryption in Transit:</strong> All audio and data transmissions use secure WebRTC connections</li>
+                <li><strong>No Cloud Storage:</strong> Reduces risk by not storing sensitive data remotely</li>
+                <li><strong>Local Storage Only:</strong> Data remains on your device under your control</li>
+                <li><strong>Signed App:</strong> Release version is cryptographically signed</li>
+            </ul>
+            <p>However, no method of transmission over the internet or electronic storage is 100% secure. We cannot guarantee absolute security.</p>
+
+            <h2>9. Your Rights (GDPR Compliance)</h2>
+            <p>If you are in the European Economic Area (EEA), you have the following rights:</p>
+            <ol>
+                <li><strong>Right to Access:</strong> Request a copy of your data (contact us)</li>
+                <li><strong>Right to Deletion:</strong> Request deletion of your data (uninstall app or contact us)</li>
+                <li><strong>Right to Correction:</strong> Request correction of inaccurate data</li>
+                <li><strong>Right to Portability:</strong> Request transfer of your data</li>
+                <li><strong>Right to Withdraw Consent:</strong> Stop using the app at any time</li>
+                <li><strong>Right to Object:</strong> Object to processing of your data</li>
+            </ol>
+            <p><strong>How to exercise rights:</strong> Email us at babymonitorsound@gmail.com or uninstall the app.</p>
+
+            <h2>10. California Privacy Rights (CCPA)</h2>
+            <p>If you are a California resident, you have the right to:</p>
+            <ol>
+                <li><strong>Know:</strong> What personal information is collected</li>
+                <li><strong>Delete:</strong> Request deletion of your personal information</li>
+                <li><strong>Opt-Out:</strong> We do NOT sell your information (nothing to opt-out of)</li>
+                <li><strong>Non-Discrimination:</strong> We will not discriminate for exercising your rights</li>
+            </ol>
+            <p><strong>How to exercise rights:</strong> Email us at babymonitorsound@gmail.com</p>
+
+            <h2>11. International Data Transfers</h2>
+            <ul>
+                <li>Audio data: NOT transferred (stays on local network)</li>
+                <li>FCM tokens: May be transferred to Google servers globally</li>
+                <li>No other data is transferred internationally</li>
+            </ul>
+
+            <h2>12. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated "Last Updated" date.</p>
+            <p><strong>How you'll be notified:</strong></p>
+            <ul>
+                <li>Updated date at the top of this policy</li>
+                <li>In-app notification (for major changes)</li>
+                <li>Continued use of the app after changes constitutes acceptance</li>
+            </ul>
+
+            <h2>13. Permissions Explained</h2>
+            <p>The app requests the following permissions:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Purpose</th>
+                        <th>Required</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>RECORD_AUDIO</strong></td>
+                        <td>Capture baby's audio for monitoring</td>
+                        <td>Yes (Emisor)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CAMERA</strong></td>
+                        <td>Scan QR codes for easy connection</td>
+                        <td>Yes (Receptor QR)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>INTERNET</strong></td>
+                        <td>WebRTC audio streaming and push notifications</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ACCESS_NETWORK_STATE</strong></td>
+                        <td>Check network connectivity</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ACCESS_WIFI_STATE</strong></td>
+                        <td>Detect WiFi network for connection</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>POST_NOTIFICATIONS</strong></td>
+                        <td>Send cry detection alerts</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>VIBRATE</strong></td>
+                        <td>Alert notifications with vibration</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td><strong>WAKE_LOCK</strong></td>
+                        <td>Keep device awake during monitoring</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>FOREGROUND_SERVICE</strong></td>
+                        <td>Continue monitoring in background</td>
+                        <td>Yes (Emisor)</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>You can revoke permissions at any time in your device settings, but this may limit app functionality.</p>
+
+            <h2>14. Data We Do NOT Collect</h2>
+            <p>To be clear, we do NOT collect:</p>
+            <ul>
+                <li>❌ Your name, email, or phone number</li>
+                <li>❌ Your location or GPS data</li>
+                <li>❌ Your contacts or address book</li>
+                <li>❌ Your photos or media files</li>
+                <li>❌ Your browsing history</li>
+                <li>❌ Your financial information</li>
+                <li>❌ Any personally identifiable information (PII)</li>
+                <li>❌ Analytics or tracking data</li>
+            </ul>
+
+            <h2>15. Contact Us</h2>
+            <div class="contact-box">
+                <p><strong>Email:</strong> babymonitorsound@gmail.com</p>
+                <p><strong>Developer:</strong> Felipe Cortes Rincon</p>
+                <p><strong>Location:</strong> Munich, Bavaria, Germany</p>
+                <p style="margin-bottom: 0;"><strong>Response Time:</strong> We aim to respond within 48 hours.</p>
+            </div>
+
+            <h2>16. Consent</h2>
+            <p>By using Baby Monitor Sound, you consent to:</p>
+            <ul>
+                <li>This Privacy Policy</li>
+                <li>Collection and use of information as described</li>
+                <li>Use of third-party services (Firebase)</li>
+            </ul>
+            <p><strong>How to withdraw consent:</strong> Uninstall the app and contact us to delete any remaining data.</p>
+
+            <hr>
+
+            <p style="text-align: center; color: #999; font-size: 14px; margin-top: 40px;">
+                <strong>This Privacy Policy is effective as of October 25, 2024.</strong><br>
+                © 2024 Felipe Cortes Rincon. All rights reserved.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
